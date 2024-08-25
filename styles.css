@@ -1,26 +1,34 @@
-body{
+body {
     background-color: #055B7E;
-}
-
-.navbar {
+  }
+  
+  .navbar {
     background-color: teal !important;
-}
-
-#front-page{
+  }
+  
+  #front-page {
     display: flex;
-    border: solid black 10px;
     align-items: center;
+    justify-content: space-between; /* Ensures the image is on the right */
     max-width: 95%;
-    margin: 1rem;
+    margin: 1rem auto; /* Centers the container horizontally */
     padding: 1rem;
-}
-.profile-image {
-    border-radius: 50%; /* Optional: Make the image circular */
-    width: 200px; /* Image width */
+    border: solid black 10px;
+  }
+  
+  .text-content {
+    flex: 1; /* Allows text to take up remaining space */
+    margin-right: 20px; /* Adds space between text and image */
+  }
+  
+  .profile-image {
+    border-radius: 20%; /* Makes the image rounded */
+    width: 30%; /* Image width */
     height: auto; /* Maintain aspect ratio */
-    align-items: right;
-}
-
-.highlight{
+    margin-left: auto; /* Pushes image to the right */
+  }
+  
+  .highlight {
     color: green;
-}
+  }
+  
