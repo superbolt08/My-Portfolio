@@ -5,3 +5,22 @@ body{
 .navbar {
     background-color: teal !important;
 }
+
+#front-page{
+    display: flex;
+    border: solid black 10px;
+    align-items: center;
+    max-width: 95%;
+    margin: 1rem;
+    padding: 1rem;
+}
+.profile-image {
+    border-radius: 50%; /* Optional: Make the image circular */
+    width: 200px; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    align-items: right;
+}
+
+.highlight{
+    color: green;
+}
