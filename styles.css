@@ -59,7 +59,8 @@ body {
     background-color: #054b7e;
     padding: 30px;
     border-radius: 8px;
-    width: 70%;
+    width: 85%;
+    height: 100%;
     margin: 40px auto;
     color: white;
 }
@@ -68,7 +69,7 @@ body {
     background-color: #2b95be;
     padding: 20px;
     border-radius: 8px;
-    height: 300px; /* Set the fixed height for scrollable area */
+    height: 28em; /* Set the fixed height for scrollable area */
     overflow-y: auto; /* Enables vertical scrolling */
     display: flex;
     flex-direction: column;
