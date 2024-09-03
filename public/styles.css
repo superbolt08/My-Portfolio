@@ -45,7 +45,7 @@ body {
   }
 
   #text-content-story{
-    background-image: url('./images/textbackground1.png');
+    background-image: url('/My-Portfolio/images/textbackground1.png');
     mask-repeat: no-repeat;
     background-size: contain; /* Ensures the image covers the entire container */
     background-repeat: no-repeat; /* Ensure no repeating image */
