@@ -26,18 +26,19 @@ body {
     padding: 1rem;
     margin-top: 6rem;
   }
-  
-  .text-content {
-    flex: 1; /* Allows text to take up remaining space */
-    margin-right: 20px; /* Adds space between text and image */
-    color: white;
-  }
-  
   .profile-image {
+    display: block;
+    margin: 20px auto;
     border-radius: 20%; /* Makes the image rounded */
     width: 30%; /* Image width */
     height: auto; /* Maintain aspect ratio */
     margin-left: auto; /* Pushes image to the right */
+  }
+
+  .text-content {
+    flex: 1; /* Allows text to take up remaining space */
+    margin-right: 20px; /* Adds space between text and image */
+    color: white;
   }
   
   .highlight {
@@ -125,6 +126,24 @@ body {
 a{
   align-items: center;
 }
-
-  
+/* Moblie settings */
+@media (max-width: 600px) { 
+  #front-page {
+    flex-direction: column;
+  }
+  #story-page {
+    flex-direction: column;
+    padding: 0%;
+  }
+  #text-content-story{
+    padding: 0%;
+    margin: 0%;
+  }
+  .profile-image{
+    width: 50% !important;
+  }
+  .project{
+    flex-direction: column;
+  }
+}
 
